@@ -1,0 +1,43 @@
+criara repositorio tem que ser criado primeiro que todos
+    gitinit
+
+gitiginore ->
+    server para iginorar algumas pastas ou outro arquivo
+        pastas = "nome_da_pasta" + "/"
+        arquivo = "exe.java"
+
+adicionar arquivo ou arquivos no git ->
+    primeiro vem o adicionar ->
+        se for uma pasta 
+            git add "pasta" + "/"
+        se for todos da pasta atual
+            git add .
+        se for um arquivo
+            git add "exe.java"
+    segundo vem o comentario -> "sem ele não adiciona a pasta"
+        git commit -m "leia abaixo"
+        "comente o que vc modou e adicionou"
+        nunca se comenta um codigo que não esta pronto ainda
+
+como o que esta acontecendo com o git
+    git status
+
+adiciona uma pasta
+    mkdir
+
+repositorio que vai so controlar as altereções
+    git init --bare
+
+git log 
+    autor
+    nome_da_pasta
+
+git config --log user.nome
+    para colocar o nome
+
+git config --log user.email
+    para configurar email
+
+adicionamos esta ligação entre os repositórios
+    se tiver espaço deve ter "lotal do arquivo"
+    git remote add local "C:\Users\Bruno\eclipse-workspace\servidor"
